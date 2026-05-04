@@ -1,0 +1,37 @@
+android_app_import {
+    name: "Telegram",
+    apk: "prebuilt/app/Telegram/Telegram.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+android_app_import {
+    name: "Firefox",
+    apk: "prebuilt/app/Firefox/Firefox.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    name: "FDroid",
+    apk: "prebuilt/app/FDroid/FDroid.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+android_app_import {
+    name: "AuroraStore",
+    apk: "prebuilt/app/AuroraStore/AuroraStore.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
